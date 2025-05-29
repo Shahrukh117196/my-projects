@@ -9,7 +9,7 @@ TOTAL_PROBLEMS = 10
 
 
 def generate_problem():
-    left = random.randint(MIN_OPERAND, MAX_OPERAND)
+    left = random.randint(MIN_OPERAND, MAX_OPERAND) // generates random questions
     right = random.randint(MIN_OPERAND, MAX_OPERAND)
     operator = random.choice(OPERATORS)
 
